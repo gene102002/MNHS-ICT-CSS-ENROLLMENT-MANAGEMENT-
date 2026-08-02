@@ -20,9 +20,10 @@
         <span><button>Login</button></span>
     </header>
     <main>
-    <div>
+    <div class="Greetings">
         <h2>Welcome to the MNHS ICT/CSS Enrollment Management System</h2>
         <p>This is a simple enrollment management system for managing student enrollments in the ICT and CSS programs.</p>
+        <button >Enroll now!</button>
     </div>
 
     </main>
