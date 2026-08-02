@@ -29,20 +29,27 @@ nav ul{
     gap: 20px;
     
 }
+nav ul li {
+    justify-content: center;
+    display: flex;
+}
 nav ul li a{
     color: #fff;
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    font-weight: bold;
+    
     
 }
 header nav ul li a:hover{
-    background-color: #555;
+    background-color: #07b9d1;
+    transform:translate(0, -5px);
 }
 header button{
-    background-color: #fff;
-    color: #333;
+    background-color: #0fc79f;
+    color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -50,7 +57,9 @@ header button{
     transition: background-color 0.3s ease;
 }
 header button:hover{
-    background-color: #ccc;
+    background-color: #0da88a;
+    transition: background-color 0.3s ease;
+    transform: scale(1.05);
 }
 main{
     padding: 20px;
