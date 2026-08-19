@@ -72,8 +72,9 @@ main{
     margin-top: 3rem;
 }
 .login-box {
-            background-color: rgb(192, 168, 168);
+            background-color: lightgray;
             width: 700px;
+            height: 700px;
             padding: 30px;
             border-radius: 10px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
