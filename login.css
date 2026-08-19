@@ -83,7 +83,7 @@ main{
 .login-box {
             background:linear-gradient(to right, #175c96, #2E8B57);
             width: 700px;
-            height: 700px;
+            height: 400px;
             padding: 30px;
             border-radius: 10px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
