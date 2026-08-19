@@ -72,7 +72,7 @@ main{
     margin-top: 3rem;
 }
 .login-box {
-            background-color: lightgray;
+            background:linear-gradient(to right, #175c96, #2E8B57);
             width: 700px;
             height: 700px;
             padding: 30px;
