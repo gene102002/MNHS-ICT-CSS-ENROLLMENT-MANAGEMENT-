@@ -147,3 +147,34 @@ footer{
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+.enroll-container{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.enroll-container h2{
+    text-align: center;
+    color: #175c96;
+}
+.enroll-container input[type="text"],
+.enroll-container input[type="email"],
+.enroll-container input[type="number"],
+.enroll-container input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.enroll-container button[type="submit"]{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
