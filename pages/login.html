@@ -55,7 +55,10 @@
         <div class="login-container" id="register-form" style="display: none;">
             <h2>Register</h2>
             <form>
-            <input type="file" accept="image/*" id="profile-picture" style="display: none;">
+            <input type="file" accept="image/*" id="profile-picture" style="display: none;" onchange="previewProfilePicture(event)">
+            <label for="profile-picture">
+                <img src="../images/defaulf_Profile.png" alt="Profile Picture" id="profile-picture-preview" style="width: 100px; height: 100px;  cursor: pointer; justify-content: center; align-items: center; border-radius: 50%;">
+            </label>
             <input type="text" placeholder="Employee ID Number">
             <input type="text" placeholder="First Name">
             <input type="text" placeholder="Middle Name">
