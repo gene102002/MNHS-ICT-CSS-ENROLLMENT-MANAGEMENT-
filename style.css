@@ -1,15 +1,16 @@
-
-*{
+* {
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color:#ffff;
+    background-color: #ffff;
 
 }
-header{
-    background:linear-gradient(to right, #175c96, #2E8B57);
+
+header {
+    background: linear-gradient(to right, #175c96, #2E8B57);
     color: #fff;
     padding: 15px;
     padding-bottom: 1.7rem;
@@ -24,38 +25,44 @@ header{
     width: 100%;
     z-index: 1000;
 }
-nav{
-    margin-left: 20px;
+
+nav {
+
     align-items: center;
-    
+
 }
-nav ul{
+
+nav ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 20px;
+
 }
+
 nav ul li {
     justify-content: center;
     display: flex;
 }
-nav ul li a{
+
+nav ul li a {
     color: #fff;
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
     font-weight: bold;
-    
-    
+
+
 }
-header nav ul li a:hover{
+
+header nav ul li a:hover {
     background-color: #07b9d1;
-    transform:translate(0, -5px);
+    transform: translate(0, -5px);
 }
-header button{
+
+header button {
     background-color: #0fc79f;
     color: white;
     border: none;
@@ -64,15 +71,17 @@ header button{
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-header button:hover{
+
+header button:hover {
     background-color: #0da88a;
     transition: background-color 0.3s ease;
     transform: scale(1.05);
 }
-main{
-    
+
+main {
+
     min-height: calc(100vh - 5rem);
-    height:100vh auto;
+    height: 100vh auto;
     padding: 2rem;
     margin-top: 5rem;
     background: url(images/Bg.jpg);
@@ -80,11 +89,12 @@ main{
     background-position: center;
     background-repeat: no-repeat;
     filter: brightness(0.8);
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-.Greetings{
+
+.Greetings {
     text-align: center;
     margin-top: 50px;
     background-color: rgba(201, 200, 200, 0.575);
@@ -102,21 +112,25 @@ main{
     gap: 20px;
     filter: brightness(1.2);
 }
-.Greetings h2{
+
+.Greetings h2 {
     font-size: 2rem;
     color: #175c96;
 }
-.Greetings p{
+
+.Greetings p {
     font-size: 1.2rem;
     color: #333;
 }
-footer{
-    background:linear-gradient(to right, #175c96, #2E8B57);
+
+footer {
+    background: linear-gradient(to right, #175c96, #2E8B57);
     color: #fff;
     text-align: center;
     padding: 10px;
 }
-.btn{
+
+.btn {
     background-color: #175c96;
     color: #fff;
     border: none;
@@ -124,15 +138,17 @@ footer{
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    
+
 }
-.btn:hover{
+
+.btn:hover {
     background-color: #07d173;
     font-size: 1rem;
     animation: ease-in-out 3ms;
     color: black;
 }
-.login-container{
+
+.login-container {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
     border-radius: 10px;
@@ -142,20 +158,23 @@ footer{
     flex-direction: column;
     gap: 15px;
 }
-.login-container h2{
+
+.login-container h2 {
     text-align: center;
     color: #175c96;
 }
+
 .login-container input[type="text"],
 .login-container input[type="password"],
-.login-container input[type="email"]{
+.login-container input[type="email"] {
     width: 100%;
     padding: 10px;
     margin: 5px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-.enroll-container{
+
+.enroll-container {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
     border-radius: 10px;
@@ -165,33 +184,38 @@ footer{
     flex-direction: column;
     gap: 15px;
 }
-.enroll-container h2{
+
+.enroll-container h2 {
     text-align: center;
     color: #175c96;
 }
+
 .enroll-container input[type="text"],
 .enroll-container input[type="email"],
 .enroll-container input[type="number"],
-.enroll-container input[type="password"]{
+.enroll-container input[type="password"] {
     width: 100%;
     padding: 10px;
     margin: 5px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-.enroll-container button[type="submit"]{
+
+.enroll-container button[type="submit"] {
     width: 100%;
     padding: 10px;
     margin: 5px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-.enroll-container button[type="submit"]:hover{
+
+.enroll-container button[type="submit"]:hover {
     background-color: #07d173;
     font-size: 1rem;
     animation: ease-in-out 3ms;
     color: black;
 }
+
 .enroll-container input[type="file"] {
     width: 100%;
     padding: 10px;
@@ -199,6 +223,7 @@ footer{
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+
 .enroll-container input[type="file"]::file-selector-button {
     background-color: #175c96;
     color: #fff;
@@ -208,16 +233,19 @@ footer{
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+
 .enroll-container input[type="file"]::file-selector-button:hover {
     background-color: #07d173;
     font-size: 1rem;
     animation: ease-in-out 3ms;
     color: black;
 }
+
 .enroll-container input[type="file"]::file-selector-button:focus {
     outline: none;
     box-shadow: 0 0 0 2px #07d173;
 }
+
 .enroll-container form {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -285,10 +313,13 @@ footer{
     justify-self: center;
     align-self: center;
 }
+
 #profile-picture {
     grid-column: span 2;
 }
-#forgot-password-form button, #register-form button {
+
+#forgot-password-form button,
+#register-form button {
     width: 100%;
-    
+
 }
