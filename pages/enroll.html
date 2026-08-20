@@ -8,6 +8,7 @@
     <link rel="icon" href="images/logo_mnhs.png" type="image/x-icon">
      <link rel="icon" href="images/logo_mnhs.png" type="image/x-icon">
     <link rel="stylesheet" href="../style.css">
+    
 </head>
 
 <body>
@@ -28,7 +29,12 @@
     <main>
         <div class="enroll-container">
             <h2>Enrollment Form</h2>
+            <img id="profile-picture-preview" alt="Profile Picture Preview" style="max-width: 200px; max-height: 200px; margin-bottom: 10px; display: none;">
+            <input type="file" accept="image/*" required id="profile-picture" name="profile-picture" 
+                onchange="previewProfilePicture(event)">
             <form action="#" method="post">
+                
+                <input type="text" placeholder="LRN" required>
                 <input type="text" placeholder="First Name" required>
                 <input type="text" placeholder="Middle Name" required>
                 <input type="text" placeholder="Last Name" required>
@@ -36,12 +42,11 @@
                 <input type="text" placeholder="Contact Number" required>
                 <input type="text" placeholder="Username" required>
                 <input type="password" placeholder="Password" required>
-
-
+                <input type="password" placeholder="Confirm Password" required>
                 <input type="email" placeholder="Email" required>
-                <button type="submit" class="btn">Submit Enrollment</button>
+                
             </form>
-
+                <button type="submit" class="btn">Submit Enrollment</button>
         </div>
 
     </main>
@@ -49,5 +54,6 @@
         <p>&copy; 2026 MNHS ICT/CSS Enrollment Management. All rights reserved.</p>
     </footer>
 </body>
+<script src="../Scripts/script.js"></script>
 
 </html>
