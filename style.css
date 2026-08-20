@@ -12,6 +12,7 @@ header{
     background:linear-gradient(to right, #175c96, #2E8B57);
     color: #fff;
     padding: 15px;
+    padding-bottom: 1.7rem;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -34,7 +35,6 @@ nav ul{
     flex-wrap: wrap;
     flex-direction: row;
     gap: 20px;
-    
 }
 nav ul li {
     justify-content: center;
