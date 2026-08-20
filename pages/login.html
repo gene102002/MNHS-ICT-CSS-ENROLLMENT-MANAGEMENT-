@@ -14,10 +14,10 @@
         <h1>MNHS ICT/CSS Enrollment Management System</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="../index.html">Home</a></li>
                 <li><a href="../pages/enroll.html">Enroll</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="../pages/about.html">About</a></li>
+                <li><a href="../pages/contact.html">Contact</a></li>
             </ul>
         </nav>
         <span><a href="../pages/login.html">
@@ -26,26 +26,48 @@
     </header>
     <main>
 
-        <div class="login-container">
-
+        <div class="login-container" id="login-form">
+            
             <h2>Login</h2>
 
             <input type="text" placeholder="Username">
 
             <input type="password" placeholder="Password">
 
-            <button  class="btn">
+            <button  class="btn" id="login-button">
                 Login
             </button>
-            <button class="btn">
+            <button class="btn" id="register-button">
                 Register
+            </button>
+            <button class="btn" id="forgot-password-button">
+                Forgot Password
             </button>
 
         </div>
+        <div class="login-container" id="forgot-password-form" style="display: none;">
+            <h2>Forgot Password</h2>
+            <input type="email" placeholder="Email">
+            <button class="btn">
+                Reset Password
+            </button>
+        </div>
+        <div class="login-container" id="register-form" style="display: none;">
+            <h2>Register</h2>
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="Password">
+            <input type="password" placeholder="Confirm Password">
+            <input type="email" placeholder="Email">
+            <button class="btn">
+                Register
+            </button>
+        </div>
+
     </main>
     <footer>
         <p>&copy; 2026 MNHS ICT/CSS Enrollment Management. All rights reserved.</p>
     </footer>
 </body>
+<script src="../Scripts/script.js"></script>
 
 </html>

@@ -118,6 +118,7 @@ footer{
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    
 }
 .btn:hover{
     background-color: #07d173;
@@ -140,7 +141,8 @@ footer{
     color: #175c96;
 }
 .login-container input[type="text"],
-.login-container input[type="password"]{
+.login-container input[type="password"],
+.login-container input[type="email"]{
     width: 100%;
     padding: 10px;
     margin: 5px 0;
@@ -223,4 +225,8 @@ footer{
 }
 #profile-picture {
     grid-column: span 2;
+}
+#forgot-password-form button, #register-form button {
+    width: 100%;
+    
 }
