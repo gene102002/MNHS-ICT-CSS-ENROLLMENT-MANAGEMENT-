@@ -8,32 +8,48 @@
     <link rel="icon" href="images/logo_mnhs.png" type="image/x-icon">
     <link rel="icon" href="images/logo_mnhs.png" type="image/x-icon">
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
 </head>
 
 <body>
     <header>
         <h1>MNHS ICT/CSS Enrollment Management System</h1>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../pages/enroll.html">Students</a></li>
-                <li><a href="../pages/about.html">Tools</a></li>
-                <li><a href="../pages/contact.html">Records</a></li>
-            </ul>
-        </nav>
-        <span>
-            <a href="../pages/login.html">
-                <button type="button">Log Out</button>
-            </a>
-        </span>
+
+
     </header>
     <main>
-        <div>
+        <div class="parent-container">
 
-            
+
+            <div class="sidebar">
+                <h3><i class="fa-solid fa-bars"></i> </h3>
+                <ul>
+                    <li><a href="../pages/dashboard.html"><i class="fa-solid fa-gauge"></i> Dashboard</a></li>
+                    <li><a href="../pages/enroll.html"><i class="fa-solid fa-user-plus"></i> Enroll Students</a></li>
+                    <li><a href="../pages/records.html"><i class="fa-solid fa-file-lines"></i> Records</a></li>
+                    <li><a href="../pages/tools.html"><i class="fa-solid fa-toolbox"></i> Tools</a></li>
+                    <li><a href="../pages/about.html"><i class="fa-solid fa-circle-info"></i> About</a></li>
+                    <li><a href="../pages/contact.html"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+                </ul>
+                <span class="logout-button">
+                    <a href="../pages/login.html">
+                        <button type="button"><i class="fa-solid fa-right-from-bracket"></i>Log Out</button>
+                    </a>
+                </span>
+
+            </div>
+            <div class="dashboard-content">
+                <h2>Welcome to the Dashboard</h2>
+                <p>This is the main dashboard of the MNHS ICT/CSS Enrollment Management System. Here you can manage
+                    student enrollments, view records, and access various tools.</p>
+
+            </div>
+
         </div>
-
     </main>
     <footer>
         <p>&copy; 2026 MNHS ICT/CSS Enrollment Management. All rights reserved.</p>
