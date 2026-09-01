@@ -386,6 +386,7 @@ footer {
     }
     #register-form {
         margin: 20px auto;
+        overflow-y: auto;
     }
 }
 
