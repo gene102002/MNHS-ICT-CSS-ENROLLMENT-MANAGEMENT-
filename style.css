@@ -168,10 +168,6 @@ footer {
     align-items: center;
     color: #175c96;
 }
-.welcome-cntent {
-    width: 80%;
-    max-width: 550px;
-}
 
 .welcome-content h1 {
     font-size: 45px;
@@ -370,6 +366,21 @@ footer {
 
     .enroll-container form {
         grid-template-columns: 1fr;
+    }
+    .welcome-content {
+        padding: 1rem;
+    }
+    .welcome-content h1 {
+        font-size: 2rem;
+    }
+    .welcome-content h2 {
+        font-size: 1.25rem;
+    }
+    .welcome-content p {
+        font-size: 0.9rem;
+    }
+    .welcome-content h3 {
+        font-size: 1rem;
     }
 }
 
