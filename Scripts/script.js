@@ -19,7 +19,6 @@ document.getElementById('login-button').addEventListener('click', function() {
 });
 document.getElementById('register-button').addEventListener('click', function() {
     // Show the register form and hide the login form
-    document.getElementById('welcome-content2').style.display = 'none';
     document.getElementById('login-form').style.display = 'none';
     document.getElementById('register-form').style.display = 'block';
 });
