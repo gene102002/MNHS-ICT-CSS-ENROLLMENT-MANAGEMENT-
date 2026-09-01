@@ -157,7 +157,6 @@ footer {
 
 /* LEFT HALF */
 .welcome-content {
-    flex: 1;
     border-radius: 10px;
     width: 50%;
     height: 110vh;
