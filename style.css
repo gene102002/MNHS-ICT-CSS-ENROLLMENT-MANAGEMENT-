@@ -194,10 +194,6 @@ footer {
     letter-spacing: 1px;
 }
 
-#register-form {
-    overflow-y: auto;
-}
-
 /* RIGHT HALF */
 .login-container {
     flex: 1;
