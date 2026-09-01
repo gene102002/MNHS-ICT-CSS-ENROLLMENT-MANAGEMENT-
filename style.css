@@ -194,6 +194,8 @@ footer {
     letter-spacing: 1px;
 }
 
+
+
 /* RIGHT HALF */
 .login-container {
     flex: 1;
@@ -314,7 +316,7 @@ footer {
     gap: 10px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 600px) and (orientation: landscape) {
     header {
         position: static;
         padding: 1rem;
