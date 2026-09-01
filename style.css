@@ -168,7 +168,7 @@ footer {
     justify-content: center;
     align-items: center;
     color: #175c96;
-    overflow-x: auto;
+    margin: auto;
 }
 
 .welcome-content h1 {
@@ -212,7 +212,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow-x: auto;
+    margin: auto;
 }
 
 .log-container {
