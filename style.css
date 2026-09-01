@@ -374,6 +374,7 @@ footer {
     }
     .welcome-content {
         padding: 1rem;
+        overflow-x: auto;
     }
     .welcome-content h1 {
         font-size: 2rem;
@@ -388,9 +389,6 @@ footer {
         font-size: 1rem;
     }
     #register-form {
-    width: 80%;
-    margin: auto;
-    box-sizing: border-box;
     overflow-x: auto;
     }
 }
