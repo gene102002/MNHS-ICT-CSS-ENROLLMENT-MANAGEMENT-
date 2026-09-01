@@ -169,6 +169,7 @@ footer {
     align-items: center;
     color: #175c96;
     margin: auto;
+    overflow-y: auto;
 }
 
 .welcome-content h1 {
@@ -213,6 +214,7 @@ footer {
     justify-content: center;
     align-items: center;
     margin: auto;
+    overflow-y: auto;
 }
 
 .log-container {
