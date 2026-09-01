@@ -314,7 +314,7 @@ footer {
     gap: 10px;
 }
 
-@media (max-width: 600px) and (orientation: landscape) {
+@media (max-width: 600px) {
     header {
         position: static;
         padding: 1rem;
@@ -370,7 +370,7 @@ footer {
     }
     .welcome-content {
         padding: 1rem;
-        overflow-x: auto;
+        margin: 0.5rem;
     }
     .welcome-content h1 {
         font-size: 2rem;
@@ -384,9 +384,7 @@ footer {
     .welcome-content h3 {
         font-size: 1rem;
     }
-    #register-form {
-    overflow-x: auto;
-    }
+   
 }
 
 #profile-picture-preview {
