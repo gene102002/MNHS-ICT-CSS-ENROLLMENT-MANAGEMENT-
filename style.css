@@ -155,14 +155,43 @@ footer {
 }
 
 /* LEFT HALF */
-.left-container {
-    width: 50%;
+.welcome-content {
+    width: 80%;
+    max-width: 550px;
     background-color: rgba(255, 255, 255, 0.2);
     font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.welcome-cntent {
+    width: 80%;
+    max-width: 550px;
+}
+
+.welcome-content h1 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.welcome-content h2 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.welcome-content p {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.welcome-content h3 {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 
 /* RIGHT HALF */
