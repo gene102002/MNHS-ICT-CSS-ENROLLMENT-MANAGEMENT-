@@ -157,6 +157,7 @@ footer {
 
 /* LEFT HALF */
 .welcome-content {
+    flex: 1;
     border-radius: 10px;
     width: 50%;
     height: 110vh;
@@ -369,6 +370,7 @@ footer {
     }
     .welcome-content {
         padding: 1rem;
+        overflow-y: auto;
     }
     .welcome-content h1 {
         font-size: 2rem;
@@ -381,6 +383,9 @@ footer {
     }
     .welcome-content h3 {
         font-size: 1rem;
+    }
+    #register-form {
+        margin: 20px auto;
     }
 }
 
