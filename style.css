@@ -157,6 +157,7 @@ footer {
 
 /* LEFT HALF */
 .welcome-content {
+    border-radius: 10px;
     width: 50%;
     height: 70vh;
     background-color: rgba(255, 255, 255, 0.2);
